@@ -50,9 +50,3 @@ This project demonstrates:
 
 ---
 
-## 📸 Project Preview
-
-(Add screenshots of your project here)
-
-```md
-![Project Preview](images/preview.png)
