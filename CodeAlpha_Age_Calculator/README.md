@@ -8,7 +8,7 @@ This project is built using simple **HTML, CSS, and JavaScript** and is perfect 
 
 ---
 
-## 📌 What This Project Does
+##  What This Project Does
 
 In this project, we have created a small web application that:
 
@@ -32,7 +32,7 @@ This project demonstrates:
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Instant age calculation  
 - Accurate result in Years, Months & Days  
@@ -42,7 +42,7 @@ This project demonstrates:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML** – structure of the webpage  
 - **CSS** – styling and layout  
@@ -50,10 +50,5 @@ This project demonstrates:
 
 ---
 
-## 📸 Project Preview
 
-(Add screenshots of your project here)
-
-```md
-![Project Preview](images/preview.png)
 
