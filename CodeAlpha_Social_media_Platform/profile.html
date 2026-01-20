@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile | SocialApp</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Social<span>App</span></div>
+    <div class="nav-actions">
+      <a href="index.html" class="nav-link">Home</a>
+      <button id="logoutBtn" class="btn">Logout</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- PROFILE HEADER -->
+    <section id="profile-header">
+      <div class="avatar"></div>
+      <h2 id="profile-name">Your Name</h2>
+      <p id="profile-username">@username</p>
+      <div class="stats">
+        <span id="postCount">0 Posts</span>
+      </div>
+    </section>
+
+    <!-- USER POSTS -->
+    <section id="user-posts"></section>
+  </main>
+
+  <script src="profile.js"></script>
+</body>
+</html>

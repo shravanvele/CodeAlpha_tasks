@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialApp | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Social<span>App</span></div>
+    <div class="nav-actions">
+      <a href="profile.html" class="nav-link">Profile</a>
+      <button id="logoutBtn" class="btn hidden">Logout</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Auth Section -->
+    <section id="auth-forms">
+      <h2>Welcome to SocialApp</h2>
+      <input id="username" placeholder="Username" />
+      <input id="password" type="password" placeholder="Password" />
+      <div class="auth-buttons">
+        <button id="loginBtn" class="btn">Login</button>
+        <button id="registerBtn" class="btn secondary">Register</button>
+      </div>
+    </section>
+
+    <!-- Feed Section -->
+    <section id="feed" class="hidden">
+      <h2 class="feed-title">Home Feed</h2>
+      <div id="feedContainer"></div>
+    </section>
+  </main>
+
+  <!-- Floating Post Button -->
+  <button class="post-btn" id="openPostModal">＋</button>
+
+  <!-- Post Modal -->
+  <div id="postModal" class="modal">
+    <div class="modal-content">
+      <h3>Create Post</h3>
+      <textarea id="postContent" placeholder="What's happening?" rows="4"></textarea>
+      <div class="modal-actions">
+        <button id="postBtn" class="btn">Post</button>
+        <button id="closeModal" class="btn secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
