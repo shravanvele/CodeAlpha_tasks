@@ -1,0 +1,93 @@
+.form-container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: block;
+  margin: 30vh auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 20%;
+  max-width: 400px;
+  animation: slide-up 0.5s ease-in-out;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+h1 {
+  color: #3498db;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #217dbb;
+}
+
+input[type="submit"]:active {
+  background-color: #196090;
+}
+
+input[type="submit"]:disabled {
+  background-color: #e74c3c;
+  cursor: not-allowed;
+}
+
+input[type="submit"]:disabled:hover {
+  background-color: #e74c3c;
+}
+
+::placeholder {
+  color: #aaa;
+}
+
+p {
+  margin-top: 20px;
+}
+
+p a {
+  display: inline-block;
+  background-color: #db4a39;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+p a:hover {
+  background-color: #c0392b;
+}
