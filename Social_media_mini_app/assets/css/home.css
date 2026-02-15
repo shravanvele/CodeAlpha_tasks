@@ -1,0 +1,78 @@
+/* Reset some default margin and padding */
+/* Set a nice font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the home container */
+#home-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Style the feed posts section */
+#feed-posts {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+#new-post-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#new-post-form input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#posts-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style the individual posts */
+.post-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style the user friends section */
+#user-friends {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-friends p {
+  margin-bottom: 5px;
+}
+
+#user-friends a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#user-friends a:hover {
+  color: #2980b9;
+}

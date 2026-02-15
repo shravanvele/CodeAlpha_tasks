@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(to bottom, #84d9fd, #34a2db);
+  /* Gradient background */
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+}
+
+.form input[type="submit"] {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+  background: #217dbb;
+}
+
+.profile-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #e74c3c;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
