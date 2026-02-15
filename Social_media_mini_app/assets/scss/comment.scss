@@ -1,0 +1,57 @@
+/* Reset some default margin and padding */
+    /* Style the comment container */
+  .comment-container {
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .comment-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .comment-content {
+    flex: 1;
+  }
+  
+  .comment-actions {
+    margin-left: 10px;
+  }
+  
+  .comment-actions a {
+    color: #e74c3c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .comment-actions a:hover {
+    color: #c0392b;
+  }
+  
+  .comment-user {
+    color: #3498db;
+    font-size: 14px;
+  }
+  
+  .comment-user::before {
+    content: '- ';
+  }
+  
+  .comment-user a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .comment-user a:hover {
+    color: #2980b9;
+  }
+  

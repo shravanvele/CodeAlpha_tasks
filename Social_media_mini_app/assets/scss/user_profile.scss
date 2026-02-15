@@ -1,0 +1,74 @@
+// user_profile.scss
+
+// Import any additional SCSS files or variables if needed
+
+// Define variables for colors and other styles
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+$bg-color: #570f0f;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+// Define styles for different elements
+body {
+    background: linear-gradient(to bottom, #84d9fd, #34a2db); /* Gradient background */
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container {
+  max-width: 600px;
+  margin: 50 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: $box-shadow;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+  input[type="text"],
+  input[type="email"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: darken($primary-color, 10%);
+    }
+  }
+}
+
+.profile-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid $secondary-color;
+  border-radius: 5px;
+  box-shadow: $box-shadow;
+}
