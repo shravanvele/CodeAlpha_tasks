@@ -1,0 +1,25 @@
+<footer id = "footer">
+    
+    <span>&copy Coding Ninjas.All Rights Reserved. </span>
+    <% if(!locals.user) { %>
+        <span>
+            <a href="/users/sign-up">Register</a>
+        </span>
+
+        <span>
+         <a href="/users/sign-in">Login</a>
+        </span>
+        <% }else{ %>
+    <span>
+        <a href="/">Home</a>
+    </span>
+    
+    <span> 
+        <a href="/users/Profile/<%=locals.user.id%>">Profile</a>
+    </span>
+    
+    <span>
+        <a href="/users/sign-out">Log Out</a>
+    </span>
+    <% } %>
+    </footer>
